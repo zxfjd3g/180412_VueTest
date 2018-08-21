@@ -32,8 +32,13 @@
 <script type="text/javascript">
   const vm = new Vue({ // 配置对象: 属性名是特定的一些名称
     el: '#test', // el: element, 值为选择器(指定vue库管理的标签元素)
-    data: { // 为模板提供数据
+    /*data: { // 为模板提供数据
       name: 'atguigu'
+    }*/
+    data () {
+      return {
+        name: 'atguigu'
+      }
     }
   })
 </script>
